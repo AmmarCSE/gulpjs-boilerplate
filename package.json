@@ -1,7 +1,7 @@
 {
-  "name": "browser-endpoints",
+  "name": "gulpjs-boilerplate",
   "version": "1.0.0",
-  "description": "virtual browser server",
+  "description": "boilerplate for app utilizing gulpjs",
   "scripts": {
     "start": "node server.js"
   },
@@ -16,6 +16,7 @@
     "cross-env": "^1.0.7",
     "expect": "^1.8.0",
     "express": "^4.13.3",
+    "gulp": "^3.9.1",
     "gulp-load-plugins": "^1.2.2",
     "jsdom": "^5.6.1",
     "mocha": "^2.2.5",
