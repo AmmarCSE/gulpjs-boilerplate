@@ -15,6 +15,7 @@
     "browser-sync": "^2.12.8",
     "cross-env": "^1.0.7",
     "expect": "^1.8.0",
+    "expose-loader": "^0.7.1",
     "express": "^4.13.3",
     "gulp": "^3.9.1",
     "gulp-load-plugins": "^1.2.2",
