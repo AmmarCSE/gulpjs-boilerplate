@@ -1,35 +1,50 @@
 {
-  "name": "gulpjs-boilerplate",
-  "version": "1.0.0",
-  "description": "boilerplate for app utilizing gulpjs",
-  "scripts": {
-    "start": "node server.js"
+  "name": "client",
+  "private": true,
+  "engines": {
+    "node": ">=0.12.0"
   },
-  "author": "Ammar Abu-Yasein",
-  "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.9.0",
-    "babel-loader": "^6.2.4",
-    "babel-preset-es2015": "^6.9.0",
-    "babel-register": "^6.3.13",
-    "babel-root-import": "^3.2.2",
-    "browser-sync": "^2.12.8",
-    "cross-env": "^1.0.7",
-    "expect": "^1.8.0",
-    "expose-loader": "^0.7.1",
-    "express": "^4.13.3",
-    "gulp": "^3.9.1",
-    "gulp-less": "^3.1.0",
-    "gulp-load-plugins": "^1.2.2",
-    "jsdom": "^5.6.1",
-    "mocha": "^2.2.5",
-    "node-libs-browser": "^0.5.2",
-    "webpack": "^1.9.11",
-    "webpack-dev-middleware": "^1.2.0",
-    "webpack-hot-middleware": "^2.9.1",
-    "webpack-stream": "^3.2.0"
+    "apache-server-configs": "^2.7.1",
+    "babel-core": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "browser-sync": "^2.2.1",
+    "del": "^1.1.1",
+    "fs": "0.0.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-babel": "^6.1.1",
+    "gulp-cache": "^0.4.2",
+    "gulp-cached": "^1.1.0",
+    "gulp-cssnano": "^2.0.0",
+    "gulp-eslint": "^0.13.2",
+    "gulp-html-replace": "^1.5.5",
+    "gulp-htmlmin": "^1.3.0",
+    "gulp-if": "^1.2.5",
+    "gulp-ignore": "^2.0.1",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-replace": "^0.5.4",
+    "gulp-rev": "^7.0.0",
+    "gulp-size": "^1.2.1",
+    "gulp-sourcemaps": "^1.5.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-useref": "^3.0.0",
+    "main-bower-files": "^2.5.0",
+    "wiredep": "^2.2.2"
   },
-  "dependencies": {
-    "babel-polyfill": "^6.3.14"
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true,
+      "browser": true
+    },
+    "rules": {
+      "quotes": [
+        2,
+        "single"
+      ]
+    }
   }
 }
