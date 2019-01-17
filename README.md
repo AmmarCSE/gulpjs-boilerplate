@@ -1,4 +1,7 @@
 # gulpjs-boilerplate
+
+Just a boilerplate I created with the following features:
+
 * transpile es6 javascript using [gulp-babel](https://www.npmjs.com/package/gulp-babel)
 * only process touched files using [gulp-cached](https://github.com/contra/gulp-cached)
 * obfusticate javascript with [gulp-uglify](https://www.npmjs.com/package/gulp-uglify) when building
